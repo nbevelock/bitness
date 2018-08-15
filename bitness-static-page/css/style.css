@@ -1,0 +1,74 @@
+/* Global Styles */
+html > * {font-family: 'Ubuntu', sans-serif;}
+#development h2, #consulting h2 {padding-top: 5%;}
+
+
+/* Nav */
+nav div.navbar-nav a.nav-link {color: #66DD9C;}
+nav div.navbar-nav a.nav-link:hover {color: #22D674;}
+
+
+.jumbotron {
+    background: no-repeat center/contain url(../img/cross-the-chasm-converse.png);
+    height: 100vh;
+    color: #66dd9c;
+}
+
+div.jumbo-filter {
+    height: 100vh;
+    background-color: rgb(232,232,232,0.3);
+}
+
+
+.icon .fas, .icon .far {font-size: 8em;}
+
+.greenskew {
+    background-color: #66dd9c;
+    height: 100vh;
+    transform: skewY(5deg);
+}
+.greenskew > * {transform: skewY(-5deg);}
+
+.icon h3 {margin: 10% auto;}
+
+#development {
+    height: 100vh;
+    color: white;
+}
+#development .row {height: 80%;}
+
+#consulting {
+    height: 100vh;
+    color: #22d674;
+}
+#consulting .row {height: 80%;}
+
+#currencies {
+    color: #66dd9c;
+    padding-top: 70px;
+}
+#currencies img {
+    max-width: 150px; height: auto;
+    margin: 1.5%;
+}
+
+#contact {
+    height: 100vh;
+    color: white;
+}
+#contact .row {height: inherit;}
+#contact h2, #contact p, #contact h4 {margin-top: 10%; margin-bottom: 10%;}
+
+.greenskew-2 {
+    background-color: #66dd9c;
+    height: 100vh;
+    transform: skewY(-5deg);
+}
+.greenskew-2 > * {transform: skewY(5deg);}
+
+
+/* Footer */
+footer {color: #66DD9C; height: 70px; line-height: 70px;}
+footer a {color: #66DD9C;}
+footer a:hover {color: #22D674; text-decoration: none;}
+footer .social {margin-left: 7.5%; margin-right: 7.5%;}
