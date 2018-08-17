@@ -3,7 +3,8 @@
     <head>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<!--        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">-->
+        <link href="css/all.min.css" rel="stylesheet"> <!--load all styles -->
         <link href="css/style.css" rel="stylesheet">        
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,19 +18,19 @@
                 <a class="navbar-brand" href="#">
                     <img src="img/bitness-full-logo-green.png" width="auto" height="50px" alt="Bitness">
                 </a>
-               <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>-->
-<!--                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fas fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav container justify-content-start">
                         <a class="nav-item nav-link" href="#development">Use Bitcoin</a>
                         <a class="nav-item nav-link" href="#consulting">Consulting</a>
-                        <a class="nav-item nav-link" href="#">Blog</a>
+                        <a class="nav-item nav-link" target="_blank" href="https://medium.com/bitness">Blog</a>
                     </div>
                     <div class="navbar-nav container justify-content-end">
 <!--                        <a class="nav-item nav-link flex-row-reverse" href="#">Careers</a>-->
                     </div>
-<!--                </div>-->
+                </div>
                 
             </nav>
         </div>
@@ -46,45 +47,43 @@
             <div class="container" id="development">
                 <h2 class="display-4">We code. You Collect.</h2>
                 <div class="row align-items-center text-center">
-                    <div class="col-md-4 col-sm-2 icon">
+                    <div class="col-4 icon">
                         <span class="fas fa-tshirt"></span>
-                        <h3>Web stores, services and streamers welcome</h3>
-                        <p>Bitcoin is a natural companion to online business. Cryptocurrency is especially advantageous for international payemnts.</p>
+                        <h3>Online Businesses</h3>
+                        <p class="d-none d-md-block">Bitcoin is a natural companion to online shops, services, streamers and more.</p>
                     </div>
-                    <div class="col-md-4 col-sm-2 icon">
+                    <div class="col-4 icon">
                         <span class="fas fa-store"></span>
-                        <h3>Electronic cash, physical business</h3>
-                        <p>Bitcoin works exactly like cash and fits well in any brick and mortar business operation. 
-                            Best of all—no regsiters, safes or armored cars needed.</p>
+                        <h3>Physical Businesses</h3>
+                        <p class="d-none d-md-block">Bitcoin works exactly like cash, but electronic. No registers, safes or armored cars needed.</p>
                     </div>
-                    <div class="col-md-4 col-sm-2 icon">
+                    <div class="col-4 icon">
                         <span class="far fa-eye-slash"></span>
-                        <h3>Become Immune to Censorship</h3>
-                        <p>Payment processors are known to pull services from certain industries and individuals. Used correctly, 
-                            your bitcoin income can never be seized or halted.</p>
+                        <h3>Fight Censorship</h3>
+                        <p class="d-none d-md-block">Targeted for your opinions or line of work? Receiving bitcoin payments can never be halted.</p>
                     </div>
     <!--            what the business owner stands to gain-->
                 </div>
             </div>
         </div>
         <div class="container" id="consulting">
-            <h2 class="display-4">Boost your Blockchain IQ</h2>
+            <h2 class="display-4">Boost your Blockchain IQ.</h2>
             <div class="row align-items-center text-center">
-                <div class="col-md-4 col-sm-2 icon">
+                <div class="col-4 icon">
                     <span class="fas fa-chalkboard"></span>
                     <h3>Crypto education</h3>
-                    <p>Our pros a workshop to make you and your staff experts on using and understanding cryptocurrency.</p>
-                    <p><strong>Educational institutions</strong>: ask us about our discount programs.</p>
+                    <p class="d-none d-md-block">An easy workshop from our pros will make you and your staff very proficient with cryptocurrency.</p>
+                    <p class="d-none d-md-block"><strong>Educational institutions</strong>: ask us about our discount programs.</p>
                 </div>
-                <div class="col-md-4 col-sm-2 icon">
+                <div class="col-4 icon">
                     <span class="fas fa-fingerprint"></span>
                     <h3>Privacy services</h3>
-                    <p>Deal with VIPs? Privacy a must? We'll help you keep operations private and off record.</p>
+                    <p class="d-none d-md-block">Deal with VIPs? Value privacy? Bitness will help you keep operations private and off-record.</p>
                 </div>
-                <div class="col-md-4 col-sm-2 icon">
+                <div class="col-4 icon">
                     <span class="fas fa-chart-line"></span>
                     <h3>Consulting</h3>
-                    <p>We're equipped to serve both small businesses and large enterprises. Determine how cryptocurrency or
+                    <p class="d-none d-md-block">Bitness serves both small businesses and large enterprises. Determine how cryptocurrency or
                         a custom blockchain app fits into your operations.</p>
                 </div>
                 <!--<div class="col-md-4 col-sm-2">
@@ -114,7 +113,7 @@
                         <h3>Mobile app in 2010?</h3>
                         <h2>How about Bitcoin in 2018?</h2>-->
 <!--                        <div class="d-flex-inline text-center">-->
-                        <h2 class="h1">Bitcoin is for Everyone</h2>
+                        <h2 class="h1 display-4">Bitcoin is for Everyone</h2>
 <!--                        <p>From the small yoga studio to international the enterprise, <strong>Bitcoin Empowers</strong>.</p>-->
                         <h3>Be your own bank, control your own money.</h3>
 <!--                        </div>-->
@@ -145,8 +144,8 @@
                     <a href="#" alt="bitness"><img src="img/bitness-full-logo-green.png" height="50px" width="auto"></a>
                 </div>
                 <div class="col-4 text-center">
-                    <a href="#" class="social"><span class="fab fa-facebook-f"></span></a>
-                    <a href="#" class="social"><span class="fab fa-twitter"></span></a>
+                    <a href="https://www.facebook.com/crypto.bitness" target="_blank" class="social"><span class="fab fa-facebook-f"></span></a>
+                    <a href="https://twitter.com/crypto_bitness" target="_blank" class="social"><span class="fab fa-twitter"></span></a>
 <!--                    <a href="#" class="social"><span class="fab fa-linkedin-in"></span></a>-->
                 </div>
                 <div class="col-4 text-right">

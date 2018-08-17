@@ -6,6 +6,7 @@ html > * {font-family: 'Ubuntu', sans-serif;}
 /* Nav */
 nav div.navbar-nav a.nav-link {color: #66DD9C;}
 nav div.navbar-nav a.nav-link:hover {color: #22D674;}
+.navbar-toggler .fa-bars {color: #66DD9C;}
 
 
 .jumbotron {
@@ -29,7 +30,8 @@ div.jumbo-filter {
 }
 .greenskew > * {transform: skewY(-5deg);}
 
-.icon h3 {margin: 10% auto;}
+.icon {height: 60%;}
+.icon h3 {margin: 20% auto;}
 
 #development {
     height: 100vh;
@@ -48,7 +50,7 @@ div.jumbo-filter {
     padding-top: 70px;
 }
 #currencies img {
-    max-width: 150px; height: auto;
+    max-width: 10%; height: auto;
     margin: 1.5%;
 }
 
@@ -72,3 +74,16 @@ footer {color: #66DD9C; height: 70px; line-height: 70px;}
 footer a {color: #66DD9C;}
 footer a:hover {color: #22D674; text-decoration: none;}
 footer .social {margin-left: 7.5%; margin-right: 7.5%;}
+
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    .icon .fas, .icon .far {font-size: 4.5em;}
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-size: 1em;}
+    footer .h5 {font-size: .8em;}
+    .display-4 {font-size: 1.5em;}
+    .icon {height: 40%;}
+    .icon h3 {margin-top: 10%; padding-top: 10%;}
+    h1, #development h2, #consulting h2 {padding-top: 20%;}
+    nav div.navbar-nav a.nav-link {font-size: .8em;}
+}
