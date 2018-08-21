@@ -1,6 +1,7 @@
 /* Global Styles */
 html > * {font-family: 'Ubuntu', sans-serif;}
 #development h2, #consulting h2 {padding-top: 5%;}
+h1 {color: #22d674;}
 
 
 /* Nav */
@@ -30,7 +31,7 @@ div.jumbo-filter {
 }
 .greenskew > * {transform: skewY(-5deg);}
 
-.icon {height: 60%;}
+.icon {height: 80%;}
 .icon h3 {margin: 20% auto;}
 
 #development {
@@ -83,7 +84,12 @@ footer .social {margin-left: 7.5%; margin-right: 7.5%;}
     footer .h5 {font-size: .8em;}
     .display-4 {font-size: 1.5em;}
     .icon {height: 40%;}
-    .icon h3 {margin-top: 10%; padding-top: 10%;}
-    h1, #development h2, #consulting h2 {padding-top: 20%;}
+    .icon h3 {margin-top: 10%;}
+    #development h2, #consulting h2 {padding-top: 7%;}
     nav div.navbar-nav a.nav-link {font-size: .8em;}
+    .jumbotron, #development, #consulting, .greenskew {height: 50vh;}
+    .greenskew-2, #contact {height: 70vh;}
+    .jumbotron {background-position: right 50% bottom 25%;}
 }
+
+#typeform-workaround {color: #fff; width: inherit; font-size: 2em;}
