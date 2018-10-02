@@ -92,4 +92,5 @@ footer .social {margin-left: 7.5%; margin-right: 7.5%;}
     .jumbotron {background-position: right 50% bottom 25%;}
 }
 
-#typeform-workaround {color: #fff; width: inherit; font-size: 2em;}
+#typeform-workaround h2 {color: #fff; font-size: 2rem; width: inherit; height: auto;}
+#typeform-workaround a.btn {background-color:white; color:dimgrey; font-size: 2rem;}
